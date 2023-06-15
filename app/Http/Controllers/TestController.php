@@ -20,4 +20,9 @@ class TestController extends Controller
     {
         echo "store function";
     }
+
+    public function destroy()
+    {
+        echo "destroy function";
+    }
 }
