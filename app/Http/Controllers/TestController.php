@@ -10,9 +10,14 @@ class TestController extends Controller
     {
         echo "index function";
     }
-    
+
     public function create()
     {
         echo "create function";
+    }
+
+    public function store()
+    {
+        echo "store function";
     }
 }
