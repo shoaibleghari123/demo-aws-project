@@ -16,6 +16,11 @@ class TestController extends Controller
         echo "create function";
     }
 
+    public function edit()
+    {
+        echo "edit function";
+    }
+
     public function store()
     {
         echo "store function";
