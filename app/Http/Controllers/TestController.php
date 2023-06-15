@@ -6,6 +6,10 @@ use Illuminate\Http\Request;
 
 class TestController extends Controller
 {
+    public function __construct()
+    {
+        echo "constructor";
+    }
     public function index()
     {
         echo "index function";
@@ -14,6 +18,11 @@ class TestController extends Controller
     public function create()
     {
         echo "create function";
+    }
+
+    public function show()
+    {
+        echo "show function";
     }
 
     public function edit()
