@@ -15,12 +15,7 @@ class TestController extends Controller
     {
         echo "create function";
     }
-
-    public function show()
-    {
-        echo "show function";
-    }
-
+    
     public function edit()
     {
         echo "edit function";
